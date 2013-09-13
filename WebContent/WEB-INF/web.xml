@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>festival_sample</display-name>
+
+	<filter>
+		<filter-name>KWFilter</filter-name>
+		<filter-class>net.iubris.kw.filter.KWFilter</filter-class>
+		<init-param>
+			<param-name>ROOT</param-name>
+			<param-value>festival_sample</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>KWFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+		
+	<servlet>
+		<display-name>ArchimedesInit</display-name>
+		<servlet-name>ArchimedesInit</servlet-name>
+		<servlet-class>net.iubris.archimedes.config.ArchimedesInit</servlet-class>
+		<init-param>
+			<param-name>BaseClass</param-name>
+			<param-value>festival.model.Concert</param-value>
+		</init-param>
+		<init-param>	
+			<param-name>DAOType</param-name>
+			<param-value>hsql</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

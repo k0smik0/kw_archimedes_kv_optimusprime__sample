@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="kw.xsd">
+	<logic>
+		<name>ConcertLogicInsert</name>
+		<class>festival.logic.ConcertLogicInsert</class>
+		<ok>/pages/insert/inserted.jsp</ok>
+		<input>/pages/insert/inserted.jsp</input>
+	</logic>
+	<logic>
+		<name>ConcertLogicSearch</name>
+		<class>festival.logic.ConcertLogicSearch</class>
+		<ok>/pages/search/result.jsp</ok>
+		<input>/pages/search/result.jsp</input>
+	</logic>
+	<logic>
+		<name>SomeFullLogic</name>
+		<class>net.iubris.flights.SomeLogic</class>
+		<ok>/ok_2.jsp</ok>
+		<input>/input_2.jps</input>
+		<error>/error_2.jsp</error>		
+	</logic>	
+	<logic>
+		<name>SomeInutilLogic</name>
+		<class>net.iubris.flights.SomeInutilLogic</class>			
+	</logic>	
+</logics>

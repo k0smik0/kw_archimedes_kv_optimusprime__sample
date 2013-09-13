@@ -1,0 +1,16 @@
+<?xml-stylesheet type="text/xsl" href="concerts.xsl" version="1.0" encoding="UTF-8"?>
+<concerts>
+
+	<title>
+		Concerti nel periodo da: 
+			19690101
+		 a: 20091231
+	</title>
+	
+	<concert>
+		<code> 04545 </code>
+		<name> pink floyd </name>
+		<date> 19720501 </date>
+	</concert>
+
+</concerts>

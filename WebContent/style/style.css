@@ -1,0 +1,95 @@
+h1 {font:bold 19px/27px verdana;}
+form {
+	width:560px;
+	border:1px solid #ccc;
+}
+fieldset {
+	border:0;
+	padding:7px;
+	margin:7px;
+	position:relative;
+	background:transparent;
+}
+p,label {
+	display:block;
+	font:normal 12px/17px verdana;
+}
+input {width:70px;}
+
+
+#menu {	
+	font:normal 18px/18px verdana;
+	color:#444;
+	padding:5px 5px 5px 5px;
+	margin: 0 0 30px 0;
+	width:550px;
+	background:#ffdd00 no-repeat top left;
+}
+#concertsinsertform {	
+	background:#aaffbb no-repeat top left;	
+}
+#concertssearchform {	
+	background:#ffeedd no-repeat top left;	
+}
+#daconcertform {	
+	background:#ffddff no-repeat top left;	
+}
+
+span.hint {
+	font:normal 11px/14px verdana;
+	background:#eee url(images/bg-span-hint-gray.gif) no-repeat top left;
+	color:#444;
+	border:1px solid #888;
+	padding:5px 5px 5px 40px;
+	width:250px;
+	position:absolute;
+	margin: -12px 0 0 100px;
+	display:none;
+}
+
+
+fieldset.welldone span.hint {
+	background:#9fd680 url(images/bg-span-hint-welldone.jpg) no-repeat top left;
+	border-color:#749e5c;
+	border-width: 5px;
+	/*color:#000;*/
+}
+fieldset.kindagood span.hint {
+	background:#ffffcc url(images/bg-span-hint-kindagood.jpg) no-repeat top left;
+	border-color:#cc9933;
+}
+fieldset.bad span.hint {
+	background:#ffddcc url(images/bg-span-hint-bad.jpg) no-repeat top left;
+	border-color:#ff0000;
+}
+
+fieldset.welldone {
+	background:transparent url(images/bg-fieldset-welldone.gif) no-repeat 194px 19px;
+	/*background:#9fd680 url(images/bg-fieldset-welldone.gif) no-repeat 194px 19px;
+	border-color:#749e5c;*/
+}
+fieldset.kindagood {
+	background:transparent url(images/bg-fieldset-kindagood.gif) no-repeat 194px 19px;
+	/*background:#ffffcc url(images/bg-fieldset-kindagood.gif) no-repeat 194px 19px;
+	border-color:#cc9933;*/
+}
+fieldset.bad {
+	background:transparent url(images/bg-fieldset-bad.gif) no-repeat 194px 19px;
+	/*background:#ffddcc url(images/bg-fieldset-bad.gif) no-repeat 194px 19px;*/
+	border-color:#ff0000;
+}
+input.welldone {
+	border-style:solid;
+	border-width:5px;
+	border-color:#749e5c;
+}
+input.bad {
+	border-style:solid;
+	border-width:1px;
+	border-color:#ff0000;
+}
+input.neutral {
+	border-style:solid;
+	border-width:0px;
+	border-color:#ffffff;
+}
