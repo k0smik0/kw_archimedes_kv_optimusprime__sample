@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyleft 2013 Massimiliano Leone - massimiliano.leone@iubris.net .
+ * Copyleft 2013 Massimiliano Leone - maximilianus@gmail.com .
  * 
  * ConcertInsertResult.java is part of 'festival_sample'.
  * 
