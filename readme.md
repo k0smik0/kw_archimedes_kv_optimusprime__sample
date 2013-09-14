@@ -14,14 +14,14 @@ It can be a starting point for educational purpose, for people who want learn ab
 *  xsl transformation
 
 
-[kw](../../kw)
+[kw](../../../kw)
 provides a j2ee framework similar to struts2
 
-[archimedes](../../archimedes)
+[archimedes](../../../archimedes)
 provides a dao/orm framework ispired to hibernate
 
-[kv](../../kv)
+[kv](../../../kv)
 provides a ajax framework with validation capabilities
 
-[optimus prime](../../optimus_prime)
+[optimus prime](../../../optimus_prime)
 provides a xsl transformer framework 
